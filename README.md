@@ -60,3 +60,6 @@ Each piece of this enlightening puzzle, from summaries to translated questions, 
 ---
 
 🚀 **Quizify**: Ignite your curiosity and embark on a journey of discovery, one quiz at a time! 🌌
+
+<img src="https://github.com/BDR-Pro/QuiziWiki/assets/91114465/e253b3e5-93b2-44e5-82ea-856256187382" width="1024" height="720" alt="Sophisticated humanoid robot thinking">
+
