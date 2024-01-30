@@ -1,5 +1,9 @@
 # Quizify: Revolutionizing Learning with AI-Powered Wiki Summaries and Bilingual Quizzes
 
+<a target="_blank" href="https://colab.research.google.com/github/BDR-Pro/QuiziWiki/blob/main/QuiziWiki.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ## 🚀 Introduction
 Welcome to Quizify - the future of interactive learning! Dive into the world of knowledge with our AI-driven tool that transforms Wikipedia articles into captivating quizzes. Quizify isn't just a tool; it's an educational revolution. It summarises complex topics into crisp content and spins them into intriguing questions, all in not just one, but two languages. 
 
