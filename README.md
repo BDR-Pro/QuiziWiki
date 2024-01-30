@@ -31,8 +31,6 @@ Got a spark of genius? We welcome all trailblazers! Fork our repository, make yo
 ## 📜 License
 Dive into the details of our project's license, and join us on this journey of knowledge and innovation.
 
----
-
 🌌 **Quizify**: Where curiosity meets technology, creating a universe of learning without limits. Let's redefine the way the world learns, one quiz at a time. 🌠
 
 
