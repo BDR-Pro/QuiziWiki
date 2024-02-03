@@ -77,6 +77,39 @@ By integrating MongoDB, `pageFiller` ensures that every piece of knowledge is pr
 
 ---
 
+## Update 2
+
+---
+
+## 🎓 Advanced Content Generation with Hugging Face API
+
+Quizify has evolved! We're now harnessing the power of the Hugging Face API to elevate our quiz content creation. This cutting-edge tool allows us to generate detailed questions and answers based on Wikipedia summaries, complete with distractors for a comprehensive quiz experience.
+
+### How It Works:
+- **Hugging Face Integration**: Utilizing `https://huggingface.co/spaces/bader4k/question-gen-en`, Quizify dynamically generates quiz questions and multiple-choice answers directly from Wikipedia article summaries.
+- **JSON-Powered Insights**: Each quiz question is crafted with precision, offering insights like this:
+```json
+{
+  "page_title": "-ene",
+  "summary": "The suffix -ene is used in organic chemistry...",
+  "question": "Why would a Greek number suffix be inserted before the suffix -ene?",
+  "choices": ["[A] to say that the double bond is between that atom and the next number up", "[B]...", "[C]...", "[D] to say that the double bond is between that atom and the atom with the next number up [ANSWER]"]
+}
+```
+- **Loop Through Documents**: Our script navigates through all MongoDB documents, extracting titles and summaries to feed into the Hugging Face API, enriching our database with ready-to-use quiz content.
+
+### Step into the Future of Learning:
+With this update, Quizify not only brings knowledge to your fingertips but also challenges your understanding in fun, interactive ways. Dive into topics ranging from science to history and test your knowledge like never before.
+
+---
+
+**Quizify**: Redefining learning, one question at a time. Join us on this exciting journey of knowledge exploration and discovery.
+
+For the full documentation and to start using Quizify, visit our [GitHub repository](https://github.com/BDR-Pro/QuiziWiki).
+
+---
+
+
 🚀 **Quizify**: Ignite your curiosity and embark on a journey of discovery, one quiz at a time! 🌌
 
 <img src="https://github.com/BDR-Pro/QuiziWiki/assets/91114465/e253b3e5-93b2-44e5-82ea-856256187382" width="1024" height="720" alt="Sophisticated humanoid robot thinking">
