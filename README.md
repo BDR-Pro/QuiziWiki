@@ -11,7 +11,7 @@ Welcome to Quizify - the future of interactive learning! Dive into the world of 
 - **AI-Powered Summaries**: Leveraging cutting-edge NLP, Quizify distills Wikipedia articles into concise summaries.
 - **Bilingual Question Generation**: Get ready for a mind-bending quiz experience with questions generated in both English and French.
 - **Seamless MongoDB Integration**: All this magic is neatly packed and stored in MongoDB, ensuring smooth access and management.
-- **Dive into Dual Languages**: Experience the thrill of mastering topics in both English and French, enhancing your language skills as you learn.
+- **Dive into Learning**: Experience the thrill of mastering topics in both English ~~and French~~, enhancing your language skills as you learn.
 
 ## 🛠 Installation
 Embark on the Quizify journey with a few simple steps:
@@ -23,11 +23,11 @@ Embark on the Quizify journey with a few simple steps:
 
 ## 📖 How to Use
 - **Step 1**: Fire up Quizify and feed it a Wikipedia page title.
-- **Step 2**: Watch as it fetches summaries, morphs them into questions, and cleverly translates them.
+- **Step 2**: Watch as it fetches summaries, morphs them into questions, and ~~cleverly translates them.~~
 - **Step 3**: All this rich content is automatically organized and stored in MongoDB for you.
 
 ## 🌍 An Example Adventure
-Let's take "Artificial Intelligence" for a spin. Quizify grabs the article, churns out thought-provoking questions, translates them for a bilingual twist, and neatly files everything in MongoDB. 
+Let's take "Artificial Intelligence" for a spin. Quizify grabs the article, churns out thought-provoking questions, ~~translates them for a bilingual twist~~, and neatly files everything in MongoDB. 
 
 ## 💡 Contribute
 Got a spark of genius? We welcome all trailblazers! Fork our repository, make your magic, and hit us with a pull request.
@@ -51,7 +51,7 @@ Dive into a vibrant example of Quizify's prowess: our journey through the "Artif
 - Sections: Delve into Goals, Techniques, Applications, and more, each a gateway to new knowledge.
 
 ### ❓ Quizzes: A Bilingual Brain Tease
-- French Queries: "Qu'entend-on par intelligence artificielle?" to "Quel est l'année où l'architecture de transformer a été développée?"
+- ~~French Queries: "Qu'entend-on par intelligence artificielle?" to "Quel est l'année où l'architecture de transformer a été développée?"~~
 - English Translations: Tackling questions like "What defines artificial intelligence?" to "When was the transformer architecture developed?"
 
 ### 📚 MongoDB: Our Knowledge Repository
