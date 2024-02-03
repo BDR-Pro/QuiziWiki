@@ -104,8 +104,6 @@ With this update, Quizify not only brings knowledge to your fingertips but also 
 
 **Quizify**: Redefining learning, one question at a time. Join us on this exciting journey of knowledge exploration and discovery.
 
-For the full documentation and to start using Quizify, visit our [GitHub repository](https://github.com/BDR-Pro/QuiziWiki).
-
 ---
 
 
