@@ -1,4 +1,4 @@
-# Quizify: Revolutionizing Learning with AI-Powered Wiki Summaries and Bilingual Quizzes
+# Quizify: Revolutionizing Learning with AI-Powered Wiki Summaries and ~~Bilingual~~ Quizzes
 
 <a target="_blank" href="https://colab.research.google.com/github/BDR-Pro/QuiziWiki/blob/main/QuiziWiki.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
