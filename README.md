@@ -140,12 +140,37 @@ Are you passionate about education and technology? Do you have ideas to make Qui
 
 Embark on a learning adventure with Quizify today. Explore diverse topics, test your knowledge, and enjoy a quiz experience like no other. With Quizify, every question is a step towards new insights and discoveries.
 
----
+### Everthing in json
+
+```
+
+{
+  "_id": "65be47637a752d35e56fd1f2",
+  "page_title": "-ene",
+  "summary": "The suffix -ene is used in organic chemistry to name compounds with a -C=C- group, deriving from 'ethylene'. A number may precede '-ene' to indicate the double bond's position. The suffix also varies with the following letter (vowel or consonant) and indicates the number of double bonds in a compound, as seen in 'butadiene'. In inorganic chemistry, '-ene' denotes a one-atom thick layer, as in graphene.",
+  "categories": {
+    "Chemistry Suffixes": "https://en.wikipedia.org/wiki/Category:Chemistry_suffixes",
+    "English Suffixes": "https://en.wikipedia.org/wiki/Category:English_suffixes",
+    "Organic Chemistry Stubs": "https://en.wikipedia.org/wiki/Category:Organic_chemistry_stubs",
+    "Articles Needing Additional References": "https://en.wikipedia.org/wiki/Category:All_articles_needing_additional_references",
+    "Articles with Short Description": "https://en.wikipedia.org/wiki/Category:Articles_with_short_description"
+  },
+  "question": "Why would a Greek number suffix be inserted before the suffix -ene?",
+  "choices": {
+    "A": "to say that the double bond is between that atom and the next number up",
+    "B": "to say there are -C=C- bonds in the compound",
+    "C": "None Of The Above",
+    "D": "to say that the double bond is between that atom and the atom with the next number up [ANSWER]"
+  }
+}
+
+
+
+```
+
 
 **Quizify**: Where learning meets innovation. Together, let's build a smarter future. 🌟
 
-
----
 
 **Quizify**: Redefining learning, one question at a time. Join us on this exciting journey of knowledge exploration and discovery.
 
