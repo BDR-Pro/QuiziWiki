@@ -57,10 +57,10 @@ Dive into a vibrant example of Quizify's prowess: our journey through the "Artif
 ### 📚 MongoDB: Our Knowledge Repository
 Each piece of this enlightening puzzle, from summaries to translated questions, finds a home in our MongoDB database, ready for your exploration and learning.
 
-## Update 1
----
 
-## 🧠 pageFiller: The Engine Behind Content Creation
+## Update 1
+
+# 🧠 pageFiller: The Engine Behind Content Creation
 
 At the heart of Quizify lies `pageFiller`, an innovative script designed to seamlessly bridge the worlds of philosophy, technology history, and the future with our learning platform. It dives into Wikipedia, fetching article summaries, categorizing knowledge, and dissecting sections to fuel our quiz-generation engine.
 
@@ -78,7 +78,7 @@ By integrating MongoDB, `pageFiller` ensures that every piece of knowledge is pr
 
 ## Update 2
 
----
+
 
 ## 🎓 Advanced Content Generation with Hugging Face API
 
@@ -104,7 +104,7 @@ With this update, Quizify not only brings knowledge to your fingertips but also 
 
 ## Update 3
 
----
+
 
 ## 🌐 Quizify Expands: Introducing Duplicate Removal and Enhanced Learning
 
@@ -166,7 +166,74 @@ Embark on a learning adventure with Quizify today. Explore diverse topics, test 
 
 
 
+
 ```
+
+
+## Update 4
+
+# Wikipedia Image Fetcher
+
+Wikipedia Image Fetcher is a simple, efficient tool designed to retrieve the main image URL associated with a specific Wikipedia page title. Utilizing the Wikipedia API, this Python script offers an easy way to programmatically access visual content from the vast repository of Wikipedia articles. Whether you're building educational content, need images for a project, or simply exploring Wikipedia's rich database, Wikipedia Image Fetcher streamlines the process, delivering high-quality images directly to you.
+
+## Features
+
+- **Simple Integration**: Easily incorporate into any Python project to fetch Wikipedia images.
+- **Customizable Image Size**: Specify the desired thumbnail size for the perfect fit.
+- **Efficient and Fast**: Quickly retrieves image URLs with minimal overhead.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Python 3.x
+- `requests` library
+
+## Installation
+
+1. **Python Installation**: Make sure Python 3.x is installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
+
+2. **Install Requests Library**: If you haven't installed the `requests` library yet, you can do so by running the following command in your terminal:
+
+   ```bash
+   pip install requests
+   ```
+
+## Usage
+
+To use the Wikipedia Image Fetcher, follow these steps:
+
+1. **Import the Function**: Include the `get_wikipedia_image_url` function in your Python script.
+
+2. **Call the Function**: Pass the title of the Wikipedia page to the function as a string. Ensure the title accurately matches the Wikipedia page.
+
+   ```python
+   page_title = "Python (programming language)"
+   image_url = get_wikipedia_image_url(page_title)
+   print(image_url)
+   ```
+
+3. **Retrieve the Image URL**: The function returns the URL of the main image. If no image is found, it returns a message indicating so.
+
+## Example
+
+Here's a quick example demonstrating how to fetch the image URL for the Wikipedia page on "Python (programming language)":
+
+```python
+from get_wikipedia_image_url import get_wikipedia_image_url
+
+# Specify the Wikipedia page title
+page_title = "Python (programming language)"
+
+# Fetch and print the image URL
+image_url = get_wikipedia_image_url(page_title)
+print(f"Image URL: {image_url}")
+
+```
+
+**Happy Image Fetching!** Explore the visual side of Wikipedia with ease and bring knowledge to life in your projects.
+
+
+
 
 
 **Quizify**: Where learning meets innovation. Together, let's build a smarter future. 🌟
