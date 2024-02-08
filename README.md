@@ -268,6 +268,31 @@ This project involves two main scripts designed to enhance a MongoDB database wi
 
 ---
 
+## Update 6
+
+
+#w Wikipedia Content Integration Script
+
+## Overview
+
+This script is designed to optimize and automate the process of fetching, generating, and storing curated content from Wikipedia. It primarily focuses on extracting article titles, summaries, categories, and associated images. Additionally, it generates questions based on the article summaries to facilitate educational or content creation applications. The script efficiently updates a MongoDB database by inserting new documents with this structured information and removes processed entries from a staging collection to maintain database integrity.
+
+## Features
+
+- **Content Extraction**: Retrieves article titles, summaries, and categories from Wikipedia.
+- **Question Generation**: Automatically generates questions based on article summaries for enhanced content engagement.
+- **Image URL Retrieval**: Fetches associated image URLs using the article titles.
+- **Database Management**: Inserts structured documents into a MongoDB collection and cleans up processed entries from a staging collection.
+
+
+## Script Workflow
+
+1. **Content Retrieval**: The script queries the `PagesCollection` for Wikipedia article titles.
+2. **Data Processing**: For each title, it fetches the summary, categories, and image URL. It also generates a question based on the summary.
+3. **Database Update**: It constructs a document with the retrieved and generated data and inserts it into the `collection`.
+4. **Cleanup**: The processed entry is removed from `PagesCollection`.
+
+
 
 🚀 **Quizify**: Ignite your curiosity and embark on a journey of discovery, one quiz at a time! 🌌
 
