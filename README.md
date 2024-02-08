@@ -293,6 +293,76 @@ This script is designed to optimize and automate the process of fetching, genera
 4. **Cleanup**: The processed entry is removed from `PagesCollection`.
 
 
+## Example Document Structure
+
+```json
+{
+  "title": "Artificial Intelligence",
+  "summary": "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals...",
+  "categories": ["Artificial intelligence", "Computer science", "Emerging technologies", "Machine learning", "Cognitive science"],
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Artificial_Neural_Network.jpg",
+  "question": "What defines artificial intelligence?"
+}
+```
+
+## Update 7
+
+# Wikipedia Backlinks Extraction Script
+
+## Overview
+
+This Python script is designed to assess the interest in specific Wikipedia topics by extracting backlinks to a given Wikipedia page. Backlinks, or the pages that link back to a specific page, can serve as an indicator of how relevant or popular a topic is within the Wikipedia ecosystem. The script uses the `wikipedia-api` library to fetch and list all the Wikipedia page titles that link to the specified page, offering a quantitative measure of interest based on the number of backlinking articles
+to see how much the page is referenced therefore how much it is popular and intersting to the readers.
+
+## Prerequisites
+
+Before running this script, ensure you have the following prerequisites installed:
+- Python 3.x
+- `wikipedia-api` Python library
+
+To install the `wikipedia-api` library, run:
+```bash
+pip install wikipedia-api
+```
+
+## Setup
+
+1. Ensure Python 3.x is installed on your system.
+2. Install the `wikipedia-api` library using pip.
+3. Save the script to a file, e.g., `Refrencefinder.ipynb`.
+
+## Script Features
+
+- **Simple Usage**: Easily specify the Wikipedia page title for which you want to extract backlinks.
+- **Interest Measurement**: Use the number of backlinks as a proxy for the topic's interest or relevance.
+- **Flexible**: Can be modified to fetch backlinks for any Wikipedia page by changing the page title in the script.
+
+## Usage
+
+1. Open `Refrencefinder.ipynb` in a text editor.
+2. Modify the `page_title` variable to the title of the Wikipedia page you're interested in.
+3. Run the script from the command line:
+```bash
+python Refrencefinder.ipynb
+```
+4. The script will print the titles of all Wikipedia pages that link to the specified page and the total number of backlinks found.
+
+## Example
+
+```python
+import wikipediaapi
+
+wiki_wiki = wikipediaapi.Wikipedia('en')
+page_title = 'Python (programming language)'
+page = wiki_wiki.page(page_title)
+
+articles = list(page.backlinks.keys())
+print(articles)
+print(len(articles))
+```
+
+Replace `'Python (programming language)'` with your page of interest to find its backlinks and gauge topic interest.
+
 
 🚀 **Quizify**: Ignite your curiosity and embark on a journey of discovery, one quiz at a time! 🌌
 
